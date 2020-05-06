@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task11</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		div{
+			height: 700px;
+			width: 100%;
+			
+			background-image: url(https://i.pinimg.com/originals/f8/b6/9e/f8b69e6156999b84137f3f0a23701b75.jpg) ;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		div ul{
+			display: flex;
+			
+		}
+		div ul li{
+			position: relative;
+			left: 20%;
+			top: 600px;
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			color: white;
+			align-items: center;
+			margin: 0px 20px;
+			background: linear-gradient(rgb(233, 150, 122),rgb(205, 92, 92));
+			text-shadow: bold;
+			animation: bounce 2s linear infinite;
+			}
+			@keyframes bounce{
+				0%{transform: translateY(0px);}
+				25%{transform:translateY(-200px);}				
+				50%{transform: translateY(-400px);}
+				75%{transform: translateY(-600px);}
+				100%{transform: translateY(0px);}
+
+			}
+			ul li:nth-child(1){
+				animation-delay: 0.2s;
+			}
+			ul li:nth-child(2){
+				animation-delay: 0.4s
+			}
+			ul li:nth-child(3){
+				animation-delay: 0.6s
+			}
+			ul li:nth-child(4){
+				animation-delay: 0.8s
+			}
+			ul li:nth-child(5){
+				animation-delay: 1s
+			}
+			ul li:nth-child(6){
+				animation-delay: 1.2s
+			}
+			ul li:nth-child(7){
+				animation-delay: 1.4s
+			}
+			ul li:nth-child(8){
+				animation-delay: 1.6s
+			}
+			ul li:nth-child(9){
+				animation-delay: 1.8s
+			}
+			ul li:nth-child(10){
+				animation-delay: 2s
+			}
+	</style>
+</head>
+<body>
+	<div>
+		<ul>
+			<li>P</li>
+			<li>A</li>
+			<li>Y</li>
+			<li>A</li>
+			<li>L</li>
+			<li>S</li>
+			<li>I</li>
+			<li>N</li>
+			<li>G</li>
+			<li>H</li>
+		</ul>
+	</div>
+</body>
+</html>
