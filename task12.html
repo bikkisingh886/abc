@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task12</title>
+	<style type="text/css">
+		.page{
+			width: 100%;
+			height: 650px;
+			background:url(https://www.ecopetit.cat/wpic/mpic/14-141642_hd-nature-wallpapers-amazing-images-natural-flowers-flower.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.ball{
+			height: 20px;
+			width: 20px;
+			border-radius: 50%;
+			position: absolute;
+			border: 2px solid grey;
+			left: 450px;
+			top: 250px;
+		}
+		.a{
+			transform: scale(1);
+			background: red;
+			animation: round1 1.5s linear 1;
+		}
+		@keyframes round1{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 600px;
+				top: 300px;
+			}
+			50%{
+				left: 500px;
+				top: 200px;
+			}
+			75%{
+				left: 600px;
+				top: 350px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.b{
+			transform: scale(0.5);
+			background: #0000FF;
+			animation: round2 1.5s linear 1;
+		}
+		@keyframes round2{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 200px;
+				top: 350px;
+			}
+			50%{
+				left: 300px;
+				top: 630px;
+			}
+			75%{
+				left: 210px;
+				top: 350px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.c{
+			transform: 0.2
+			background: pink;
+			animation: round3 1.5s linear 1;
+		}
+		@keyframes round3{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 100px;
+				top: 250px;
+			}
+			50%{
+				left: 500px;
+				top: 430px;
+			}
+			75%{
+				left: 210px;
+				top: 400px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.d{
+			transform: scale(0.3);
+			background: brown;
+			animation: round4 1.5s linear 1;
+		}
+		@keyframes round4{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 500px;
+				top: 320px;
+			}
+			50%{
+				left: 700px;
+				top: 530px;
+			}
+			75%{
+				left: 610px;
+				top: 350px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.e{
+			transform: scale(0.8);
+			background: yellow;
+			animation: round5 1.5s linear 1;
+		}
+		@keyframes round5{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 760px;
+				top: 340px;
+			}
+			50%{
+				left: 850px;
+				top: 350px;
+			}
+			75%{
+				left: 410px;
+				top: 390px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.f{
+			transform: scale(0.4);
+			background: linear-gradient(yellow,grey);
+			animation: round6 1.5s linear 1;
+		}
+		@keyframes round6{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 120px;
+				top: 350px;
+			}
+			50%{
+				left: 600px;
+				top: 260px;
+			}
+			75%{
+				left: 910px;
+				top: 330px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.g{
+			transform: scale(0.6);
+			background: red;
+			animation: round7 1.5s linear 1;
+		}
+		@keyframes round7{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 620px;
+				top: 100px;
+			}
+			50%{
+				left: 500px;
+				top: 150px;
+			}
+			75%{
+				left: 420px;
+				top: 250px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.h{
+			transform: scale(0.5);
+			background: blue;
+			animation: round8 1.5s linear 1;
+		}
+		@keyframes round8{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 870px;
+				top: 350px;
+			}
+			50%{
+				left: 600px;
+				top: 530px;
+			}
+			75%{
+				left: 510px;
+				top: 350px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.i{
+			transform: scale(0.7);
+			background: brown;
+			animation: round9 1.5s linear 1;
+		}
+		@keyframes round9{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 200px;
+				top: 350px;
+			}
+			50%{
+				left: 500px;
+				top: 370px;
+			}
+			75%{
+				left: 410px;
+				top: 240px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.j{
+			transform: scale(0.3);
+			background: black;
+			animation: round10 1.5s linear 1;
+		}
+		@keyframes round10{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 200px;
+				top: 240px;
+			}
+			50%{
+				left: 200px;
+				top: 170px;
+			}
+			75%{
+				left: 140px;
+				top: 230px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		.k{
+			transform: scale(0.5);
+			background: purple;
+			animation: round11 1.5s linear 1;
+		}
+		@keyframes round11{
+			0%{
+				left: 450px;
+				top: 250px;
+			}
+			25%{
+				left: 150px;
+				top: 270px;
+			}
+			50%{
+				left: 500px;
+				top: 290px;
+			}
+			75%{
+				left: 400px;
+				top: 550px;
+			}
+			100%{
+				left: 450px;
+				top: 250px;
+			}
+		}
+		 a{
+			height: 30px;
+			width: 100px;
+			position: absolute;
+			left: 450px;
+			top: 250px;
+			font-size: 20px;
+			color:deeppink;
+			border: 2px solid orange;
+			background:black;
+			text-decoration: none;
+			font-weight: bolder;
+			text-shadow: 1px 1px white;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		
+		<div class="ball a"></div>
+		<div class="ball b"></div>
+		<div class="ball c"></div>
+		<div class="ball d"></div>
+		<div class="ball e"></div>
+		<div class="ball f"></div>
+		<div class="ball g"></div>
+		<div class="ball h"></div>
+		<div class="ball i"></div>
+		<div class="ball j"></div>
+		<div class="ball k"></div>
+		<button><a href="task12.html">Click me</a></button>
+			
+	</div>
+
+</body>
+</html>
